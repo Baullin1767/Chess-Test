@@ -2,7 +2,7 @@
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private Transform board;
+    [SerializeField] private Transform center;
     [SerializeField] private float rotationSpeed = 4f;
     [SerializeField] private float zoomSpeed = 4f;
     [SerializeField] private float minZoom = 5f;
@@ -12,7 +12,7 @@ public class CameraController : MonoBehaviour
     {
         if (rotation != 0)
         {
-            transform.RotateAround(board.position, Vector3.up, rotation * rotationSpeed);
+            transform.RotateAround(center.position, Vector3.up, rotation * rotationSpeed);
         }
     }
 

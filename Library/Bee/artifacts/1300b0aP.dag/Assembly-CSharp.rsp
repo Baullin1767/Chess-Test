@@ -305,7 +305,6 @@
 "Assets/Scripts/CheckerController.cs"
 "Assets/Scripts/IInputHandler.cs"
 "Assets/Scripts/InputManager.cs"
-"Assets/Scripts/MouseKeyboardInput.cs"
 "Assets/Scripts/TouchInput.cs"
 -langversion:9.0
 

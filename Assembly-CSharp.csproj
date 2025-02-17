@@ -57,12 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\TouchInput.cs" />
+    <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Free Low Poly Chess Set\Example\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\Scripts\CheckerController.cs" />
     <Compile Include="Assets\Scripts\IInputHandler.cs" />
-    <Compile Include="Assets\Scripts\MouseKeyboardInput.cs" />
-    <Compile Include="Assets\Scripts\TouchInput.cs" />
-    <Compile Include="Assets\Scripts\InputManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Free Low Poly Chess Set\README.txt" />

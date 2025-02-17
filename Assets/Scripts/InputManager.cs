@@ -8,10 +8,7 @@ public class InputManager : MonoBehaviour
 
     void Start()
     {
-        if (Application.platform == RuntimePlatform.Android || Application.platform == RuntimePlatform.IPhonePlayer)
-            inputHandler = new TouchInput();
-        else
-            inputHandler = new MouseKeyboardInput();
+        inputHandler = new TouchInput();
 
         cameraController = FindObjectOfType<CameraController>();
     }
@@ -22,7 +19,7 @@ public class InputManager : MonoBehaviour
         {
             Vector3 moveDirection = inputHandler.GetMoveDirection();
             checker = hit.collider.GetComponent<CheckerController>();
-            checker.MoveTo(new Vector3(moveDirection.x, moveDirection.y+1, moveDirection.z));
+            checker.MoveTo(new Vector3(moveDirection.x, 0, moveDirection.z));
         }
         else
         {

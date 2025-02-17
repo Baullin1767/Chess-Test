@@ -27608,16 +27608,6 @@ IL2CPP_EXTERN_C void ResourceRequest_tE6953FBA45EAAEFE866C635B9E7852044E62D868_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138 (const RuntimeMethod* method) 
-{
-	typedef int32_t (*Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138_ftn) ();
-	static Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Application_get_platform_m59EF7D6155D18891B24767F83F388160B1FF2138_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Application::get_platform()");
-	int32_t icallRetVal = _il2cpp_icall_func();
-	return icallRetVal;
-}
 // System.Void UnityEngine.Application::CallLowMemory()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Application_CallLowMemory_m527D80B8FB34FA8B3730765171F9C7826100148A (const RuntimeMethod* method) 
 {

@@ -652,14 +652,6 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.AnimationCurve
 
-	//Start Registrations for type : UnityEngine.Application
-
-		//UnityEngine.RuntimePlatform UnityEngine.Application::get_platform()
-		void Register_UnityEngine_Application_get_platform();
-		Register_UnityEngine_Application_get_platform();
-
-	//End Registrations for type : UnityEngine.Application
-
 	//Start Registrations for type : UnityEngine.AudioSettings
 
 		//System.Boolean UnityEngine.AudioSettings::StartAudioOutput()
@@ -929,10 +921,6 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.Input::get_touchCount()
 		void Register_UnityEngine_Input_get_touchCount();
 		Register_UnityEngine_Input_get_touchCount();
-
-		//System.Single UnityEngine.Input::GetAxis(System.String)
-		void Register_UnityEngine_Input_GetAxis();
-		Register_UnityEngine_Input_GetAxis();
 
 		//System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
 		void Register_UnityEngine_Input_GetTouch_Injected();
